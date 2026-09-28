@@ -51,21 +51,22 @@ Work done notably on:
 
 ➡️ [View project](https://github.com/entrezunfredici/MyMemoMaster) · 🌐 [Live demo](https://my-memo-master.com)
 
-<!--### Microservices & AI agents
+### Weiagen
 
-Experimentation and development around an architecture made up of several services managing AI agents, their tools, and their permissions.
+Self-hosted AI agent based on [Hermes Agent](https://github.com/NousResearch) (NousResearch), extended with custom plugins for enterprise automation and control.
 
-Work on:
-- microservices architecture;
-- API;
-- authentication and access management;
-- RBAC;
-- integration of external services;
-- Docker containerization.
+**Stack:** Python, Docker / Docker Compose, SearXNG (self-hosted web search), SQLite, GitHub Actions.
 
-➡️ [View project](REPOSITORY_LINK)
+Work done notably on:
+- **Odoo** plugin — CRUD operations on business data via the ERP;
+- **Rights** plugin — generic identity → role → resource, deny-by-default authorization used across all plugins;
+- **Docs** plugin — creating and reading office documents (xlsx, docx, pptx);
+- **Audit** plugin — append-only, hash-chained audit log of every tool call and approval decision;
+- test suite (~480 tests) and GitHub Actions CI/CD pipeline.
 
-### Python tools
+➡️ [View project](https://github.com/entrezunfredici/Weiagen)
+
+<!--### Python tools
 
 Development of Python tools to automate development tasks and manage local environments.
 
